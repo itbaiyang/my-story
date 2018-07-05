@@ -18,6 +18,11 @@
         <div class="form-item">
           <button>登录</button>
         </div>
+        <div class="form-item">
+          <p>
+            <a><router-link to="/register">注册</router-link></a>
+          </p>
+        </div>
       </form>
     </div>
   </div>
@@ -38,7 +43,6 @@ export default {
   width 100%
   height 100%
   display flex
-  // flex-direction column
   justify-content center
   align-items center
   background #fff
@@ -51,7 +55,7 @@ export default {
   .login-box
     width 420px
     height 380px
-    background #f2f2f2
+    background #f0f0f0
     border-radius 4px
     box-shadow 2px 2px 1px 1px #e0e0e0
     padding 30px 15px
@@ -76,6 +80,7 @@ export default {
         width 300px
         height 36px
         vertical-align top
+        padding 0 10px
       button
         width 300px
         margin-left 49px
@@ -84,4 +89,10 @@ export default {
         line-height 36px
         height 36px
         border-radius 4px
+        font-size .32rem
+      p
+        text-align right
+        font-size .32rem
+        a:hover
+          color $themeRed
 </style>
