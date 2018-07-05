@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # story-client
 
 > A Vue.js project
@@ -28,3 +29,7 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+# my-story
+my story
+>>>>>>> 7fa5c55483aa0347ccf2ad4e554384532cb794ce
