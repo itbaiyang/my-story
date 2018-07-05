@@ -81,6 +81,9 @@
               <a>a</a>
               <a>a</a>
             </div>
+            <div class="ad">
+              <!-- <img src="@/assets/logo.png"> -->
+            </div>
             <div class="author">
               <p class="title">title</p>
               <ul>
@@ -121,6 +124,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="stylus" scoped>
+@import '~styles/varibles.styl'
 .home
   height 100%
   padding-top 60px
@@ -226,8 +230,17 @@ export default {
           margin-bottom 6px
           border-radius 4px
           padding 7px 15px
-      .author
+      .ad
         margin-top 20px
+        width 300px
+        height 200px
+        border 1px solid #e0e0e0
+        background $themeBlue
+        img
+          width 100%
+          height 100%
+      .author
+        margin-top 10px
         .title
           line-height 36px
         ul
