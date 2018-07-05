@@ -3,7 +3,7 @@
     <header>
       <div class="header clear">
         <div class="header-left fl">
-          <span></span>我们的故事
+          <span></span>我们的博客
         </div>
         <div class="header-right fr">
           <div>
@@ -152,7 +152,7 @@ export default {
         color #fff
         cursor pointer
         margin-right 10px
-        vertical-align middle
+        vertical-align top
       a:hover
         color #2196f3
       div
